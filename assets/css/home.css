@@ -331,6 +331,23 @@ footer {
         display: none;
     }
 
+    .nav-icon.active {
+        display: block;
+        position: absolute;
+        z-index: 20;
+        top: 70px;
+        right: 10px;
+        /* transition: 4ms ease-in-out; */
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        ;
+    }
+
+    .nav-icon li {
+        margin-bottom: 10px;
+    }
+
     .nav-btn {
         display: block;
     }
@@ -413,6 +430,22 @@ footer {
     .nav-icon,
     .search-bar {
         display: none;
+    }
+
+    .nav-icon.active {
+        display: block;
+        position: absolute;
+        z-index: 20;
+        top: 70px;
+        right: 10px;
+        /* transition: 10s ease-in-out; */
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .nav-icon li {
+        margin-bottom: 10px;
     }
 
     .nav-btn {
