@@ -429,6 +429,10 @@ footer {
         ;
     }
 
+    .darkTheme .nav-icon {
+        background-color: #141624;
+    }
+
     .nav-icon li {
         margin-bottom: 10px;
     }
@@ -523,10 +527,13 @@ footer {
         z-index: 20;
         top: 70px;
         right: 10px;
-        /* transition: 10s ease-in-out; */
         background-color: #fff;
         padding: 20px;
         border-radius: 10px;
+    }
+
+    .darkTheme .nav-icon {
+        background-color: #141624;
     }
 
     .nav-icon li {
