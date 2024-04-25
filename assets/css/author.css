@@ -11,6 +11,10 @@
     padding: 40px 10px;
 }
 
+.darkTheme .author{
+    background-color: #242535;
+}
+
 .author-title{
     display: flex;
     justify-content: center;

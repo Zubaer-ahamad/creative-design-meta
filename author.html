@@ -23,23 +23,30 @@
         <nav class="container">
             <div class="header-logo">
                 <a href="index.html">
-                    <img src="assets/images/Logo.png" alt="">
+                    <img id="head-logo" src="assets/images/Logo.png" alt="">
                 </a>
             </div>
-            <div>
+            <div class="icon-box">
                 <ul class="nav-icon" id="nav-icon">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="author.html">Author</a></li>
-                    <li><a href="single-post.html">Single Post</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a id="icon-one" href="index.html">Home</a></li>
+                    <li><a id="icon-two" href="author.html">Author</a></li>
+                    <li><a id="icon-three" href="single-post.html">Single Post</a></li>
+                    <li><a id="icon-four" href="#">Pages</a></li>
+                    <li><a id="icon-five" href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="search-bar">
-                <input type="text" name="" placeholder="Search" id="" class="search-field">
-                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="nav-end">
+                <div class="search-bar">
+                    <input type="text" name="" placeholder="Search" id="" class="search-field">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="dark-mode">
+                    <button class="sunny-btn" onclick="toggleDark()">
+                        <img class="sunny-img" src="assets/images/sunny.png" alt="">
+                    </button>
+                </div>
             </div>
-            <div class="nav-btn"  onclick="toggleMenu()">
+            <div class="nav-btn" onclick="toggleMenu()">
                 <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
             </div>
         </nav>
@@ -217,7 +224,7 @@
         <!-- ad section start -->
         <section class="ad-container">
             <div class="ad-section">
-                <img src="assets/images/ads-space.png" alt="">
+                <img id="ad-img" src="assets/images/ads-space.png" alt="">
             </div>
         </section>
         <!-- ad section end -->

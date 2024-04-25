@@ -23,7 +23,7 @@ nav {
     margin-right: 20px;
 }
 
-.nav-icon li a{
+.nav-icon li a {
     color: black;
 }
 
@@ -54,6 +54,10 @@ nav {
     border: none;
 }
 
+.darkTheme .search-field {
+    background-color: #242535;
+}
+
 .search-btn {
     font-size: 16px;
     background: none;
@@ -76,7 +80,7 @@ nav {
     /* transition: 1s ease-in-out; */
 }
 
-.darkTheme .dark-mode{
+.darkTheme .dark-mode {
     justify-content: end;
     background-color: #4B6BFB;
 }
@@ -107,6 +111,11 @@ nav {
     font-size: 25px;
     background: none;
     border: none;
+}
+
+.darkTheme .menu-btn {
+    color: #fff;
+    margin-left: 15px;
 }
 
 /* hero style */
@@ -190,6 +199,10 @@ nav {
     padding: 14px;
 }
 
+.darkTheme .post-card {
+    border: 1px solid #242535;
+}
+
 .post-btn {
     width: 97px;
     height: 28px;
@@ -263,7 +276,7 @@ footer {
     padding-top: 50px;
 }
 
-.darkTheme footer{
+.darkTheme footer {
     background-color: #141624 !important;
 }
 
@@ -332,10 +345,18 @@ footer {
     margin-bottom: 10px;
 }
 
+.darkTheme .email-field {
+    background-color: #3B3C4A;
+}
+
 .fa-regular {
     position: absolute;
     top: 18px;
     right: 50px;
+}
+
+.darkTheme .fa-regular {
+    color: #97989F;
 }
 
 .subscribe-btn {
