@@ -7,23 +7,31 @@
     font-family: "Work Sans", sans-serif;
 }
 
+body.darkTheme {
+    background-color: #242535;
+    color: #fff !important;
+}
 
-a{
+a {
     color: black;
+}
+
+.darkTheme a {
+    color: white !important;
 }
 
 img {
     width: 100%;
 }
 
-.container{
+.container {
     max-width: 1240px;
     padding: 10px;
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 575.98px){
-    .container{
+@media only screen and (max-width: 575.98px) {
+    .container {
         width: 100%;
     }
 }
