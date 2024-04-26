@@ -80,6 +80,10 @@ nav {
     /* transition: 1s ease-in-out; */
 }
 
+.dark-mode,.sunny-btn:hover {
+    cursor: pointer;
+}
+
 .darkTheme .dark-mode {
     justify-content: end;
     background-color: #4B6BFB;
@@ -178,6 +182,25 @@ nav {
 
 /* post section */
 
+.post-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.post-heading-btn{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-left: 10px;
+}
+
+.post-heading-btn:hover{
+    cursor: pointer;
+}
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,7 +212,6 @@ nav {
 .post-title {
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 30px;
 }
 
 .post-card {
@@ -460,6 +482,10 @@ footer {
 
     .card-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .post-btn-group{
+        display: none;
     }
 
     .post-title {

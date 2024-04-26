@@ -29,3 +29,35 @@ if (localStorage.getItem('darkMode') === "on") {
     adImage.src = "assets/images/ads-space.png";
     localStorage.setItem("darkMode", "");
 }
+
+const cards = document.querySelectorAll(".post-card");
+// function handleCardOne() {
+//     document.getElementById('card-container').style.gridTemplateColumns = ("repeat(1, 1fr)");
+//     for (const card of cards) {
+//         card.style.display = "flex";
+//         card.style.gap = "20px";
+//     }
+// };
+
+function handleCardTwo() {
+    document.getElementById('card-container').style.gridTemplateColumns = ("repeat(2, 1fr)");
+    for (const card of cards) {
+        card.style.flexDirection = "column";
+    }
+}
+
+function handleCardThree() {
+    document.getElementById('card-container').style.gridTemplateColumns = ("repeat(3, 1fr)");
+    for (const card of cards) {
+        card.style.flexDirection = "column";
+    }
+}
+
+function handleCardOne() {
+    document.getElementById('card-container').style.gridTemplateColumns = ("repeat(1, 1fr)");
+    for (const card of cards) {
+        card.style.display = "flex";
+        card.style.flexDirection = "row";
+        card.style.gap = "20px";
+    }
+};

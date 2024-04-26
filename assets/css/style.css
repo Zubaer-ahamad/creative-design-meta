@@ -20,6 +20,10 @@ a {
     color: white !important;
 }
 
+.darkTheme a:hover{
+    color: orange !important;
+}
+
 img {
     width: 100%;
 }
