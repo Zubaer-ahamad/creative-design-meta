@@ -4,6 +4,7 @@ function toggleMenu() {
 
 const icon = document.getElementById('head-logo');
 const adImage = document.getElementById('ad-img');
+const darkLogo = document.getElementById('sunny-img');
 
 function toggleDark() {
     document.querySelector('body').classList.toggle('darkTheme');
@@ -12,10 +13,12 @@ function toggleDark() {
     if (document.body.classList.contains('darkTheme')) {
         icon.src = "assets/images/dark-logo.png";
         adImage.src = "assets/images/dark-ads-space.png";
+        darkLogo.src = "assets/images/sunny.png";
     }
     else {
         icon.src = "assets/images/Logo.png";
         adImage.src = "assets/images/ads-space.png";
+        darkLogo.src = "assets/images/moon.png";
         localStorage.setItem("darkMode", "");
     }
 }
